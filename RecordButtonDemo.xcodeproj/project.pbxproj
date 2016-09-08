@@ -18,18 +18,18 @@
 		C7A6199B1D8138CD00B8F9EC /* RecordButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A6199A1D8138CD00B8F9EC /* RecordButtonDemoUITests.m */; };
 		C7A619A91D8138F900B8F9EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619A81D8138F900B8F9EC /* AVFoundation.framework */; };
 		C7A619AB1D81390A00B8F9EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619AA1D81390A00B8F9EC /* AudioToolbox.framework */; };
-		C7A619B91D81393900B8F9EC /* mic_0.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619AE1D81393900B8F9EC /* mic_0.png */; };
-		C7A619BA1D81393900B8F9EC /* mic_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619AF1D81393900B8F9EC /* mic_1.png */; };
-		C7A619BB1D81393900B8F9EC /* mic_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B01D81393900B8F9EC /* mic_2.png */; };
-		C7A619BC1D81393900B8F9EC /* mic_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B11D81393900B8F9EC /* mic_3.png */; };
-		C7A619BD1D81393900B8F9EC /* mic_4.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B21D81393900B8F9EC /* mic_4.png */; };
-		C7A619BE1D81393900B8F9EC /* mic_5.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B31D81393900B8F9EC /* mic_5.png */; };
-		C7A619BF1D81393900B8F9EC /* mic_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B41D81393900B8F9EC /* mic_cancel.png */; };
-		C7A619C01D81393900B8F9EC /* RecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A619B61D81393900B8F9EC /* RecordButton.m */; };
-		C7A619C11D81393900B8F9EC /* RecordHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A619B81D81393900B8F9EC /* RecordHUD.m */; };
 		C7A619CB1D813EA400B8F9EC /* EncodeAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619C41D813EA400B8F9EC /* EncodeAudio.a */; };
 		C7A619CC1D813EA400B8F9EC /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619C91D813EA400B8F9EC /* libopencore-amrnb.a */; };
 		C7A619CD1D813EA400B8F9EC /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619CA1D813EA400B8F9EC /* libopencore-amrwb.a */; };
+		C7A619F11D81456700B8F9EC /* mic_0.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619E61D81456700B8F9EC /* mic_0.png */; };
+		C7A619F21D81456700B8F9EC /* mic_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619E71D81456700B8F9EC /* mic_1.png */; };
+		C7A619F31D81456700B8F9EC /* mic_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619E81D81456700B8F9EC /* mic_2.png */; };
+		C7A619F41D81456700B8F9EC /* mic_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619E91D81456700B8F9EC /* mic_3.png */; };
+		C7A619F51D81456700B8F9EC /* mic_4.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619EA1D81456700B8F9EC /* mic_4.png */; };
+		C7A619F61D81456700B8F9EC /* mic_5.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619EB1D81456700B8F9EC /* mic_5.png */; };
+		C7A619F71D81456700B8F9EC /* mic_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619EC1D81456700B8F9EC /* mic_cancel.png */; };
+		C7A619F81D81456700B8F9EC /* RecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A619EE1D81456700B8F9EC /* RecordButton.m */; };
+		C7A619F91D81456700B8F9EC /* RecordHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A619F01D81456700B8F9EC /* RecordHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,17 +69,6 @@
 		C7A6199C1D8138CD00B8F9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A619A81D8138F900B8F9EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C7A619AA1D81390A00B8F9EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		C7A619AE1D81393900B8F9EC /* mic_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_0.png; sourceTree = "<group>"; };
-		C7A619AF1D81393900B8F9EC /* mic_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_1.png; sourceTree = "<group>"; };
-		C7A619B01D81393900B8F9EC /* mic_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_2.png; sourceTree = "<group>"; };
-		C7A619B11D81393900B8F9EC /* mic_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_3.png; sourceTree = "<group>"; };
-		C7A619B21D81393900B8F9EC /* mic_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_4.png; sourceTree = "<group>"; };
-		C7A619B31D81393900B8F9EC /* mic_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_5.png; sourceTree = "<group>"; };
-		C7A619B41D81393900B8F9EC /* mic_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_cancel.png; sourceTree = "<group>"; };
-		C7A619B51D81393900B8F9EC /* RecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordButton.h; sourceTree = "<group>"; };
-		C7A619B61D81393900B8F9EC /* RecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordButton.m; sourceTree = "<group>"; };
-		C7A619B71D81393900B8F9EC /* RecordHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordHUD.h; sourceTree = "<group>"; };
-		C7A619B81D81393900B8F9EC /* RecordHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordHUD.m; sourceTree = "<group>"; };
 		C7A619C31D813EA400B8F9EC /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
 		C7A619C41D813EA400B8F9EC /* EncodeAudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = EncodeAudio.a; sourceTree = "<group>"; };
 		C7A619C51D813EA400B8F9EC /* EncodeAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeAudio.h; sourceTree = "<group>"; };
@@ -88,6 +77,17 @@
 		C7A619C81D813EA400B8F9EC /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
 		C7A619C91D813EA400B8F9EC /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		C7A619CA1D813EA400B8F9EC /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		C7A619E61D81456700B8F9EC /* mic_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_0.png; sourceTree = "<group>"; };
+		C7A619E71D81456700B8F9EC /* mic_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_1.png; sourceTree = "<group>"; };
+		C7A619E81D81456700B8F9EC /* mic_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_2.png; sourceTree = "<group>"; };
+		C7A619E91D81456700B8F9EC /* mic_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_3.png; sourceTree = "<group>"; };
+		C7A619EA1D81456700B8F9EC /* mic_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_4.png; sourceTree = "<group>"; };
+		C7A619EB1D81456700B8F9EC /* mic_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_5.png; sourceTree = "<group>"; };
+		C7A619EC1D81456700B8F9EC /* mic_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_cancel.png; sourceTree = "<group>"; };
+		C7A619ED1D81456700B8F9EC /* RecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordButton.h; sourceTree = "<group>"; };
+		C7A619EE1D81456700B8F9EC /* RecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordButton.m; sourceTree = "<group>"; };
+		C7A619EF1D81456700B8F9EC /* RecordHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordHUD.h; sourceTree = "<group>"; };
+		C7A619F01D81456700B8F9EC /* RecordHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +145,8 @@
 		C7A619711D8138CD00B8F9EC /* RecordButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C7A619E41D81456700B8F9EC /* RecordHelper */,
 				C7A619C21D813EA400B8F9EC /* EncodeAudio */,
-				C7A619AC1D81393900B8F9EC /* ZGCRecordHelper */,
 				C7A619751D8138CD00B8F9EC /* AppDelegate.h */,
 				C7A619761D8138CD00B8F9EC /* AppDelegate.m */,
 				C7A619781D8138CD00B8F9EC /* ViewController.h */,
@@ -187,32 +187,6 @@
 			path = RecordButtonDemoUITests;
 			sourceTree = "<group>";
 		};
-		C7A619AC1D81393900B8F9EC /* ZGCRecordHelper */ = {
-			isa = PBXGroup;
-			children = (
-				C7A619AD1D81393900B8F9EC /* imgs */,
-				C7A619B51D81393900B8F9EC /* RecordButton.h */,
-				C7A619B61D81393900B8F9EC /* RecordButton.m */,
-				C7A619B71D81393900B8F9EC /* RecordHUD.h */,
-				C7A619B81D81393900B8F9EC /* RecordHUD.m */,
-			);
-			path = ZGCRecordHelper;
-			sourceTree = "<group>";
-		};
-		C7A619AD1D81393900B8F9EC /* imgs */ = {
-			isa = PBXGroup;
-			children = (
-				C7A619AE1D81393900B8F9EC /* mic_0.png */,
-				C7A619AF1D81393900B8F9EC /* mic_1.png */,
-				C7A619B01D81393900B8F9EC /* mic_2.png */,
-				C7A619B11D81393900B8F9EC /* mic_3.png */,
-				C7A619B21D81393900B8F9EC /* mic_4.png */,
-				C7A619B31D81393900B8F9EC /* mic_5.png */,
-				C7A619B41D81393900B8F9EC /* mic_cancel.png */,
-			);
-			path = imgs;
-			sourceTree = "<group>";
-		};
 		C7A619C21D813EA400B8F9EC /* EncodeAudio */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +200,32 @@
 				C7A619CA1D813EA400B8F9EC /* libopencore-amrwb.a */,
 			);
 			path = EncodeAudio;
+			sourceTree = "<group>";
+		};
+		C7A619E41D81456700B8F9EC /* RecordHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C7A619E51D81456700B8F9EC /* imgs */,
+				C7A619ED1D81456700B8F9EC /* RecordButton.h */,
+				C7A619EE1D81456700B8F9EC /* RecordButton.m */,
+				C7A619EF1D81456700B8F9EC /* RecordHUD.h */,
+				C7A619F01D81456700B8F9EC /* RecordHUD.m */,
+			);
+			path = RecordHelper;
+			sourceTree = "<group>";
+		};
+		C7A619E51D81456700B8F9EC /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				C7A619E61D81456700B8F9EC /* mic_0.png */,
+				C7A619E71D81456700B8F9EC /* mic_1.png */,
+				C7A619E81D81456700B8F9EC /* mic_2.png */,
+				C7A619E91D81456700B8F9EC /* mic_3.png */,
+				C7A619EA1D81456700B8F9EC /* mic_4.png */,
+				C7A619EB1D81456700B8F9EC /* mic_5.png */,
+				C7A619EC1D81456700B8F9EC /* mic_cancel.png */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,13 +331,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A619BD1D81393900B8F9EC /* mic_4.png in Resources */,
-				C7A619BC1D81393900B8F9EC /* mic_3.png in Resources */,
-				C7A619BE1D81393900B8F9EC /* mic_5.png in Resources */,
-				C7A619BA1D81393900B8F9EC /* mic_1.png in Resources */,
-				C7A619B91D81393900B8F9EC /* mic_0.png in Resources */,
-				C7A619BF1D81393900B8F9EC /* mic_cancel.png in Resources */,
-				C7A619BB1D81393900B8F9EC /* mic_2.png in Resources */,
+				C7A619F51D81456700B8F9EC /* mic_4.png in Resources */,
+				C7A619F41D81456700B8F9EC /* mic_3.png in Resources */,
+				C7A619F61D81456700B8F9EC /* mic_5.png in Resources */,
+				C7A619F21D81456700B8F9EC /* mic_1.png in Resources */,
+				C7A619F11D81456700B8F9EC /* mic_0.png in Resources */,
+				C7A619F71D81456700B8F9EC /* mic_cancel.png in Resources */,
+				C7A619F31D81456700B8F9EC /* mic_2.png in Resources */,
 				C7A619851D8138CD00B8F9EC /* LaunchScreen.storyboard in Resources */,
 				C7A619821D8138CD00B8F9EC /* Assets.xcassets in Resources */,
 				C7A6197D1D8138CD00B8F9EC /* Main.storyboard in Resources */,
@@ -365,9 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A619C01D81393900B8F9EC /* RecordButton.m in Sources */,
+				C7A619F81D81456700B8F9EC /* RecordButton.m in Sources */,
 				C7A6197A1D8138CD00B8F9EC /* ViewController.m in Sources */,
-				C7A619C11D81393900B8F9EC /* RecordHUD.m in Sources */,
+				C7A619F91D81456700B8F9EC /* RecordHUD.m in Sources */,
 				C7A619801D8138CD00B8F9EC /* RecordButtonDemo.xcdatamodeld in Sources */,
 				C7A619771D8138CD00B8F9EC /* AppDelegate.m in Sources */,
 				C7A619741D8138CD00B8F9EC /* main.m in Sources */,
@@ -606,6 +606,7 @@
 				C7A619A11D8138CD00B8F9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A619A21D8138CD00B8F9EC /* Build configuration list for PBXNativeTarget "RecordButtonDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -614,6 +615,7 @@
 				C7A619A41D8138CD00B8F9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A619A51D8138CD00B8F9EC /* Build configuration list for PBXNativeTarget "RecordButtonDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +624,7 @@
 				C7A619A71D8138CD00B8F9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
