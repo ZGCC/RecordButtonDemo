@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7A619741D8138CD00B8F9EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A619731D8138CD00B8F9EC /* main.m */; };
+		C7A619771D8138CD00B8F9EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A619761D8138CD00B8F9EC /* AppDelegate.m */; };
+		C7A6197A1D8138CD00B8F9EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A619791D8138CD00B8F9EC /* ViewController.m */; };
+		C7A6197D1D8138CD00B8F9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A6197B1D8138CD00B8F9EC /* Main.storyboard */; };
+		C7A619801D8138CD00B8F9EC /* RecordButtonDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7A6197E1D8138CD00B8F9EC /* RecordButtonDemo.xcdatamodeld */; };
+		C7A619821D8138CD00B8F9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A619811D8138CD00B8F9EC /* Assets.xcassets */; };
+		C7A619851D8138CD00B8F9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A619831D8138CD00B8F9EC /* LaunchScreen.storyboard */; };
+		C7A619901D8138CD00B8F9EC /* RecordButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A6198F1D8138CD00B8F9EC /* RecordButtonDemoTests.m */; };
+		C7A6199B1D8138CD00B8F9EC /* RecordButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A6199A1D8138CD00B8F9EC /* RecordButtonDemoUITests.m */; };
+		C7A619A91D8138F900B8F9EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619A81D8138F900B8F9EC /* AVFoundation.framework */; };
+		C7A619AB1D81390A00B8F9EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619AA1D81390A00B8F9EC /* AudioToolbox.framework */; };
+		C7A619B91D81393900B8F9EC /* mic_0.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619AE1D81393900B8F9EC /* mic_0.png */; };
+		C7A619BA1D81393900B8F9EC /* mic_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619AF1D81393900B8F9EC /* mic_1.png */; };
+		C7A619BB1D81393900B8F9EC /* mic_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B01D81393900B8F9EC /* mic_2.png */; };
+		C7A619BC1D81393900B8F9EC /* mic_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B11D81393900B8F9EC /* mic_3.png */; };
+		C7A619BD1D81393900B8F9EC /* mic_4.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B21D81393900B8F9EC /* mic_4.png */; };
+		C7A619BE1D81393900B8F9EC /* mic_5.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B31D81393900B8F9EC /* mic_5.png */; };
+		C7A619BF1D81393900B8F9EC /* mic_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A619B41D81393900B8F9EC /* mic_cancel.png */; };
+		C7A619C01D81393900B8F9EC /* RecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A619B61D81393900B8F9EC /* RecordButton.m */; };
+		C7A619C11D81393900B8F9EC /* RecordHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A619B81D81393900B8F9EC /* RecordHUD.m */; };
+		C7A619CB1D813EA400B8F9EC /* EncodeAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619C41D813EA400B8F9EC /* EncodeAudio.a */; };
+		C7A619CC1D813EA400B8F9EC /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619C91D813EA400B8F9EC /* libopencore-amrnb.a */; };
+		C7A619CD1D813EA400B8F9EC /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A619CA1D813EA400B8F9EC /* libopencore-amrwb.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7A6198C1D8138CD00B8F9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A619671D8138CD00B8F9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A6196E1D8138CD00B8F9EC;
+			remoteInfo = RecordButtonDemo;
+		};
+		C7A619971D8138CD00B8F9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A619671D8138CD00B8F9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A6196E1D8138CD00B8F9EC;
+			remoteInfo = RecordButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7A6196F1D8138CD00B8F9EC /* RecordButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A619731D8138CD00B8F9EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7A619751D8138CD00B8F9EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7A619761D8138CD00B8F9EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7A619781D8138CD00B8F9EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7A619791D8138CD00B8F9EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7A6197C1D8138CD00B8F9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7A6197F1D8138CD00B8F9EC /* RecordButtonDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecordButtonDemo.xcdatamodel; sourceTree = "<group>"; };
+		C7A619811D8138CD00B8F9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7A619841D8138CD00B8F9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7A619861D8138CD00B8F9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A6198B1D8138CD00B8F9EC /* RecordButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A6198F1D8138CD00B8F9EC /* RecordButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordButtonDemoTests.m; sourceTree = "<group>"; };
+		C7A619911D8138CD00B8F9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A619961D8138CD00B8F9EC /* RecordButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A6199A1D8138CD00B8F9EC /* RecordButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordButtonDemoUITests.m; sourceTree = "<group>"; };
+		C7A6199C1D8138CD00B8F9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A619A81D8138F900B8F9EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C7A619AA1D81390A00B8F9EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C7A619AE1D81393900B8F9EC /* mic_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_0.png; sourceTree = "<group>"; };
+		C7A619AF1D81393900B8F9EC /* mic_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_1.png; sourceTree = "<group>"; };
+		C7A619B01D81393900B8F9EC /* mic_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_2.png; sourceTree = "<group>"; };
+		C7A619B11D81393900B8F9EC /* mic_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_3.png; sourceTree = "<group>"; };
+		C7A619B21D81393900B8F9EC /* mic_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_4.png; sourceTree = "<group>"; };
+		C7A619B31D81393900B8F9EC /* mic_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_5.png; sourceTree = "<group>"; };
+		C7A619B41D81393900B8F9EC /* mic_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_cancel.png; sourceTree = "<group>"; };
+		C7A619B51D81393900B8F9EC /* RecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordButton.h; sourceTree = "<group>"; };
+		C7A619B61D81393900B8F9EC /* RecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordButton.m; sourceTree = "<group>"; };
+		C7A619B71D81393900B8F9EC /* RecordHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordHUD.h; sourceTree = "<group>"; };
+		C7A619B81D81393900B8F9EC /* RecordHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordHUD.m; sourceTree = "<group>"; };
+		C7A619C31D813EA400B8F9EC /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		C7A619C41D813EA400B8F9EC /* EncodeAudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = EncodeAudio.a; sourceTree = "<group>"; };
+		C7A619C51D813EA400B8F9EC /* EncodeAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeAudio.h; sourceTree = "<group>"; };
+		C7A619C61D813EA400B8F9EC /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		C7A619C71D813EA400B8F9EC /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		C7A619C81D813EA400B8F9EC /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		C7A619C91D813EA400B8F9EC /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		C7A619CA1D813EA400B8F9EC /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7A6196C1D8138CD00B8F9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A619AB1D81390A00B8F9EC /* AudioToolbox.framework in Frameworks */,
+				C7A619CD1D813EA400B8F9EC /* libopencore-amrwb.a in Frameworks */,
+				C7A619CC1D813EA400B8F9EC /* libopencore-amrnb.a in Frameworks */,
+				C7A619A91D8138F900B8F9EC /* AVFoundation.framework in Frameworks */,
+				C7A619CB1D813EA400B8F9EC /* EncodeAudio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A619881D8138CD00B8F9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A619931D8138CD00B8F9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7A619661D8138CD00B8F9EC = {
+			isa = PBXGroup;
+			children = (
+				C7A619AA1D81390A00B8F9EC /* AudioToolbox.framework */,
+				C7A619A81D8138F900B8F9EC /* AVFoundation.framework */,
+				C7A619711D8138CD00B8F9EC /* RecordButtonDemo */,
+				C7A6198E1D8138CD00B8F9EC /* RecordButtonDemoTests */,
+				C7A619991D8138CD00B8F9EC /* RecordButtonDemoUITests */,
+				C7A619701D8138CD00B8F9EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7A619701D8138CD00B8F9EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6196F1D8138CD00B8F9EC /* RecordButtonDemo.app */,
+				C7A6198B1D8138CD00B8F9EC /* RecordButtonDemoTests.xctest */,
+				C7A619961D8138CD00B8F9EC /* RecordButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7A619711D8138CD00B8F9EC /* RecordButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C7A619C21D813EA400B8F9EC /* EncodeAudio */,
+				C7A619AC1D81393900B8F9EC /* ZGCRecordHelper */,
+				C7A619751D8138CD00B8F9EC /* AppDelegate.h */,
+				C7A619761D8138CD00B8F9EC /* AppDelegate.m */,
+				C7A619781D8138CD00B8F9EC /* ViewController.h */,
+				C7A619791D8138CD00B8F9EC /* ViewController.m */,
+				C7A6197B1D8138CD00B8F9EC /* Main.storyboard */,
+				C7A619811D8138CD00B8F9EC /* Assets.xcassets */,
+				C7A619831D8138CD00B8F9EC /* LaunchScreen.storyboard */,
+				C7A619861D8138CD00B8F9EC /* Info.plist */,
+				C7A6197E1D8138CD00B8F9EC /* RecordButtonDemo.xcdatamodeld */,
+				C7A619721D8138CD00B8F9EC /* Supporting Files */,
+			);
+			path = RecordButtonDemo;
+			sourceTree = "<group>";
+		};
+		C7A619721D8138CD00B8F9EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7A619731D8138CD00B8F9EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7A6198E1D8138CD00B8F9EC /* RecordButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6198F1D8138CD00B8F9EC /* RecordButtonDemoTests.m */,
+				C7A619911D8138CD00B8F9EC /* Info.plist */,
+			);
+			path = RecordButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		C7A619991D8138CD00B8F9EC /* RecordButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6199A1D8138CD00B8F9EC /* RecordButtonDemoUITests.m */,
+				C7A6199C1D8138CD00B8F9EC /* Info.plist */,
+			);
+			path = RecordButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		C7A619AC1D81393900B8F9EC /* ZGCRecordHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C7A619AD1D81393900B8F9EC /* imgs */,
+				C7A619B51D81393900B8F9EC /* RecordButton.h */,
+				C7A619B61D81393900B8F9EC /* RecordButton.m */,
+				C7A619B71D81393900B8F9EC /* RecordHUD.h */,
+				C7A619B81D81393900B8F9EC /* RecordHUD.m */,
+			);
+			path = ZGCRecordHelper;
+			sourceTree = "<group>";
+		};
+		C7A619AD1D81393900B8F9EC /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				C7A619AE1D81393900B8F9EC /* mic_0.png */,
+				C7A619AF1D81393900B8F9EC /* mic_1.png */,
+				C7A619B01D81393900B8F9EC /* mic_2.png */,
+				C7A619B11D81393900B8F9EC /* mic_3.png */,
+				C7A619B21D81393900B8F9EC /* mic_4.png */,
+				C7A619B31D81393900B8F9EC /* mic_5.png */,
+				C7A619B41D81393900B8F9EC /* mic_cancel.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		C7A619C21D813EA400B8F9EC /* EncodeAudio */ = {
+			isa = PBXGroup;
+			children = (
+				C7A619C31D813EA400B8F9EC /* dec_if.h */,
+				C7A619C41D813EA400B8F9EC /* EncodeAudio.a */,
+				C7A619C51D813EA400B8F9EC /* EncodeAudio.h */,
+				C7A619C61D813EA400B8F9EC /* if_rom.h */,
+				C7A619C71D813EA400B8F9EC /* interf_dec.h */,
+				C7A619C81D813EA400B8F9EC /* interf_enc.h */,
+				C7A619C91D813EA400B8F9EC /* libopencore-amrnb.a */,
+				C7A619CA1D813EA400B8F9EC /* libopencore-amrwb.a */,
+			);
+			path = EncodeAudio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7A6196E1D8138CD00B8F9EC /* RecordButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A6199F1D8138CD00B8F9EC /* Build configuration list for PBXNativeTarget "RecordButtonDemo" */;
+			buildPhases = (
+				C7A6196B1D8138CD00B8F9EC /* Sources */,
+				C7A6196C1D8138CD00B8F9EC /* Frameworks */,
+				C7A6196D1D8138CD00B8F9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordButtonDemo;
+			productName = RecordButtonDemo;
+			productReference = C7A6196F1D8138CD00B8F9EC /* RecordButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7A6198A1D8138CD00B8F9EC /* RecordButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A619A21D8138CD00B8F9EC /* Build configuration list for PBXNativeTarget "RecordButtonDemoTests" */;
+			buildPhases = (
+				C7A619871D8138CD00B8F9EC /* Sources */,
+				C7A619881D8138CD00B8F9EC /* Frameworks */,
+				C7A619891D8138CD00B8F9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A6198D1D8138CD00B8F9EC /* PBXTargetDependency */,
+			);
+			name = RecordButtonDemoTests;
+			productName = RecordButtonDemoTests;
+			productReference = C7A6198B1D8138CD00B8F9EC /* RecordButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7A619951D8138CD00B8F9EC /* RecordButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A619A51D8138CD00B8F9EC /* Build configuration list for PBXNativeTarget "RecordButtonDemoUITests" */;
+			buildPhases = (
+				C7A619921D8138CD00B8F9EC /* Sources */,
+				C7A619931D8138CD00B8F9EC /* Frameworks */,
+				C7A619941D8138CD00B8F9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A619981D8138CD00B8F9EC /* PBXTargetDependency */,
+			);
+			name = RecordButtonDemoUITests;
+			productName = RecordButtonDemoUITests;
+			productReference = C7A619961D8138CD00B8F9EC /* RecordButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7A619671D8138CD00B8F9EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zgcc;
+				TargetAttributes = {
+					C7A6196E1D8138CD00B8F9EC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C7A6198A1D8138CD00B8F9EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C7A6196E1D8138CD00B8F9EC;
+					};
+					C7A619951D8138CD00B8F9EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C7A6196E1D8138CD00B8F9EC;
+					};
+				};
+			};
+			buildConfigurationList = C7A6196A1D8138CD00B8F9EC /* Build configuration list for PBXProject "RecordButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7A619661D8138CD00B8F9EC;
+			productRefGroup = C7A619701D8138CD00B8F9EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A6196E1D8138CD00B8F9EC /* RecordButtonDemo */,
+				C7A6198A1D8138CD00B8F9EC /* RecordButtonDemoTests */,
+				C7A619951D8138CD00B8F9EC /* RecordButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7A6196D1D8138CD00B8F9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A619BD1D81393900B8F9EC /* mic_4.png in Resources */,
+				C7A619BC1D81393900B8F9EC /* mic_3.png in Resources */,
+				C7A619BE1D81393900B8F9EC /* mic_5.png in Resources */,
+				C7A619BA1D81393900B8F9EC /* mic_1.png in Resources */,
+				C7A619B91D81393900B8F9EC /* mic_0.png in Resources */,
+				C7A619BF1D81393900B8F9EC /* mic_cancel.png in Resources */,
+				C7A619BB1D81393900B8F9EC /* mic_2.png in Resources */,
+				C7A619851D8138CD00B8F9EC /* LaunchScreen.storyboard in Resources */,
+				C7A619821D8138CD00B8F9EC /* Assets.xcassets in Resources */,
+				C7A6197D1D8138CD00B8F9EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A619891D8138CD00B8F9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A619941D8138CD00B8F9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7A6196B1D8138CD00B8F9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A619C01D81393900B8F9EC /* RecordButton.m in Sources */,
+				C7A6197A1D8138CD00B8F9EC /* ViewController.m in Sources */,
+				C7A619C11D81393900B8F9EC /* RecordHUD.m in Sources */,
+				C7A619801D8138CD00B8F9EC /* RecordButtonDemo.xcdatamodeld in Sources */,
+				C7A619771D8138CD00B8F9EC /* AppDelegate.m in Sources */,
+				C7A619741D8138CD00B8F9EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A619871D8138CD00B8F9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A619901D8138CD00B8F9EC /* RecordButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A619921D8138CD00B8F9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A6199B1D8138CD00B8F9EC /* RecordButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7A6198D1D8138CD00B8F9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A6196E1D8138CD00B8F9EC /* RecordButtonDemo */;
+			targetProxy = C7A6198C1D8138CD00B8F9EC /* PBXContainerItemProxy */;
+		};
+		C7A619981D8138CD00B8F9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A6196E1D8138CD00B8F9EC /* RecordButtonDemo */;
+			targetProxy = C7A619971D8138CD00B8F9EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7A6197B1D8138CD00B8F9EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A6197C1D8138CD00B8F9EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7A619831D8138CD00B8F9EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A619841D8138CD00B8F9EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7A6199D1D8138CD00B8F9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7A6199E1D8138CD00B8F9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A619A01D8138CD00B8F9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecordButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecordButtonDemo/EncodeAudio",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgcc.RecordButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7A619A11D8138CD00B8F9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecordButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecordButtonDemo/EncodeAudio",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgcc.RecordButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7A619A31D8138CD00B8F9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecordButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgcc.RecordButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordButtonDemo.app/RecordButtonDemo";
+			};
+			name = Debug;
+		};
+		C7A619A41D8138CD00B8F9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecordButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgcc.RecordButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordButtonDemo.app/RecordButtonDemo";
+			};
+			name = Release;
+		};
+		C7A619A61D8138CD00B8F9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RecordButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgcc.RecordButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RecordButtonDemo;
+			};
+			name = Debug;
+		};
+		C7A619A71D8138CD00B8F9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RecordButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgcc.RecordButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RecordButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7A6196A1D8138CD00B8F9EC /* Build configuration list for PBXProject "RecordButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A6199D1D8138CD00B8F9EC /* Debug */,
+				C7A6199E1D8138CD00B8F9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A6199F1D8138CD00B8F9EC /* Build configuration list for PBXNativeTarget "RecordButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A619A01D8138CD00B8F9EC /* Debug */,
+				C7A619A11D8138CD00B8F9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7A619A21D8138CD00B8F9EC /* Build configuration list for PBXNativeTarget "RecordButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A619A31D8138CD00B8F9EC /* Debug */,
+				C7A619A41D8138CD00B8F9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7A619A51D8138CD00B8F9EC /* Build configuration list for PBXNativeTarget "RecordButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A619A61D8138CD00B8F9EC /* Debug */,
+				C7A619A71D8138CD00B8F9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7A6197E1D8138CD00B8F9EC /* RecordButtonDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7A6197F1D8138CD00B8F9EC /* RecordButtonDemo.xcdatamodel */,
+			);
+			currentVersion = C7A6197F1D8138CD00B8F9EC /* RecordButtonDemo.xcdatamodel */;
+			path = RecordButtonDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7A619671D8138CD00B8F9EC /* Project object */;
+}
